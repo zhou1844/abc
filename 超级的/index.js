@@ -185,15 +185,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
     function gameInit() {
         createjs.Sound.registerSound({
-            src: "https://zhou1844.github.io/abc/static/music/err.mp3",
+            src: "https://zhou1844.github.io/abc/%E8%B6%85%E7%BA%A7%E7%9A%84/%E9%9F%B3%E4%B9%90/err.mp3",
             id: "err"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/end.mp3",
+            src: "https://zhou1844.github.io/abc/%E8%B6%85%E7%BA%A7%E7%9A%84/%E9%9F%B3%E4%B9%90/end.mp3",
             id: "end"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/tap.mp3",
+            src: "https://zhou1844.github.io/abc/%E8%B6%85%E7%BA%A7%E7%9A%84/%E9%9F%B3%E4%B9%90/tap.mp3",
             id: "tap"
         });
         gameRestart();
