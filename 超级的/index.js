@@ -9,7 +9,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
         function ajax(name, error) {
             $.ajax({
-                url: `./static/i18n/${name}.json`,
+                url: `https:/zhou1844.github.io/abc/%E8%B6%85%E7%BA%A7%E7%9A%84/i18n/${name}.json`,
                 dataType: 'json',
                 method: 'GET',
                 async: false,
